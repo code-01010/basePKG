@@ -1,6 +1,8 @@
 # basePKG
 A packinging program for linix, you can install programs and create them. this dosent run on a server
 
+# Windows port curntley we are working on this but for now you shoud setup wsl and do these commands
+
 # Preshutes
 G++
 
