@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
         if (!config)
         {
-            cout << "UHH WE FOUND ERROR LOL DIR NONO EXIST PEICE OF S***" << endl;
+            cout << "UHH WE FOUND ERROR LOL DIR NONO" << endl;
             return -1;
         }
 
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
                 if (configLine == "")
                 {
-                    cout << "FUCK U CONFIG COMPILE NOTHIN" << endl;
+                    cout << "CONFIG COMPILE NOTHIN" << endl;
                     return -1;
                 }
 
