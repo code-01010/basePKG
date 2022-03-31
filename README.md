@@ -2,7 +2,7 @@
 A packinging program for linix, you can install programs and create them. this dosent run on a server there will be a futre repo update uising git or curl or wget
 
 # Preshutes
-G++
+G++ (if your using repo mode you need git to)
 
 # Installation
 enter the cloned directory
@@ -37,4 +37,12 @@ Go outside the folder and enter this
 ```
   basePkg (folder of package)
   (then enter your password)
+```
+# Install a package from a repo
+```
+    basePkg-fetch -getrepo (Git repo http url)
+```
+After that, that repo is installed, if it is configured with base! To test
+```
+    basePkg-fetch -getrepo https://github.com/code-01010/BasePkgTestRepo
 ```
