@@ -55,8 +55,13 @@ int main(int argc, char *argv[])
         }
 
         cout << "Completed verfiying! installing this may take a while!" << endl;
-
-        string st = compiler + " " + srcDir + " " + "-o " + name;
+        string st;
+        if (args == "Cmd, self:skip")
+        {
+            st = compiler + " " + srcDir + " " + "-o " + name;
+        } else {
+            st = compiler + " " + srcDir + " " + args + "" + "-o " + name;
+        }
         const char *str = st.c_str();
         string st2 = "sudo cp " + name + " /usr/bin";
         const char *install = st2.c_str();
