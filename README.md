@@ -1,5 +1,5 @@
 # basePKG
-A packinging program for linix, you can install programs and create them. this dosent run on a server
+A packinging program for linix, you can install programs and create them. this dosent run on a server there will be a futre repo update uising git or curl or wget
 
 # Preshutes
 G++
@@ -25,7 +25,7 @@ base the config off of this:
     #compiler
     (A compile like g++) g++
     #args
-    (PUT SOMTHING RANDOM HERE OR IT WONT WORK WITH THIS VERSION)
+    (Put args if u have none type this "Cmd, self:skip")
     #srcDir
     (the folder you called it)/src/*.with file extenion
     #outBin
@@ -35,6 +35,6 @@ base the config off of this:
 # Install a package
 Go outside the folder and enter this
 ```
-  basePkg install (folder of package)
+  basePkg (folder of package)
   (then enter your password)
 ```
