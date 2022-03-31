@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     {
         cout << "Installing" << endl;
 
-        ifstream config(argv[2]);
+        ifstream config(argv[1]);
 
         cout << "Checking config.." << endl;
 
