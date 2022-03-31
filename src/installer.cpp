@@ -5,7 +5,6 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    string args[2] = {argv[1], argv[2]};
     int a = 1;
     if (a = 1)
     {
