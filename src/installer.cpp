@@ -27,9 +27,20 @@ int main(int argc, char *argv[])
         string compiler;
         string args;
         string name;
+        string dir;
         
         while (getline(config, configLine))
         {
+            if (configLine == "#bin, prebin")
+            {
+                cout << "Installing prebuilt binary..." << endl;
+                getline(config, name);
+                getline(config, dir);
+                string incmd = "cp " + dir + "/binarys/" + name + " /usr/bin";
+                system(incmd.c_str());
+                return 0;
+            }
+
             if (configLine == "#compiler")
             {
                 getline(config, configLine);
