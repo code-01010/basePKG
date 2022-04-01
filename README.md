@@ -32,15 +32,22 @@ base the config off of this:
     (The folder you called it)/bin/(WhatEverTheCommandPrefixIs)
     
 ```
+# Make a prebuilt pkg
+make on folder in the pacakge call binarys then put the binary
+```
+   #bin, prebin
+   (pkg dir, if online repo just do "repo")
+   (exec name, the one in binary)
+```
 # Install a package
 Go outside the folder and enter this
 ```
-  basePkg (folder of package)
+  sudo basePkg (folder of package)
   (then enter your password)
 ```
 # Install a package from a repo
 ```
-    basePkg-fetch -getrepo (Git repo http url)
+    sudo basePkg-fetch -getrepo (Git repo http url)
 ```
 After that, that repo is installed, if it is configured with base! To test
 ```
